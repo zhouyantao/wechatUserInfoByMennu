@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"  
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+	<meta name="keywords" content="亚马逊关键词，亚马逊关键词优化，亚马逊软件，亚马逊关键词工具，亚马逊优化，亚马逊卖家精灵，卖家精灵云服务，亚马逊关键词设置技巧，亚马逊关键词设置，亚马逊关键词抓取，亚马逊关键字，亚马逊的关键词，亚马逊 关键词，亚马逊关键词查找，亚马逊选品工具，亚马逊选品软件，亚马逊运营软件，亚马逊关键词查找工具，亚马逊如何写5个关键词，亚马逊search term，亚马逊keywords，亚马逊关键词挖掘软件，亚马逊运营工具，亚马逊选品助手，亚马逊关键词分析，亚马逊关键词搜索，亚马逊关键词排名查询，亚马逊关键词反查，数据脉 亚马逊，亚马逊关键词反查，亚马逊测评，亚马逊对手监控，亚马逊review，亚马逊评论，亚马逊数据，亚马逊爆款，亚马逊评论，亚马逊推广，亚马逊软件，亚马逊分析，亚马逊工具，亚马逊营销">
+	<meta name="description" content="卖家精灵云服务亚马逊关键词专家，五千万亚马逊关键词、搜索数据，助力卖家出海。国内首款大数据选词软件，首款亚马逊对手关键词反查软件，实现卖家从市场调研、爆款挖掘，爆款打造，对手监控，到最终爆款维护的全闭环操作。">
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/static/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="/static/css/flag-icon.min.css"/>
+	<link rel="stylesheet" href="/static/css/intlTelInput.css"/>
+	<link rel="stylesheet" href="/static/css/HoldOn.min.css"/>
+	<link rel="stylesheet" href="/static/css/jquery.fancybox.min.css"/>
+	<link rel="stylesheet" href="/static/css/video-js.min.css"/>
+	<!--[if lte IE 8]>
+	<script src="${STATIC_CDN}/static/js/html5shiv.js"></script>
+	<script src="${STATIC_CDN}/static/js/respond.js"></script>
+	<![endif]-->
+    <head>  
+        <title>微信公众号用户绑定</title>  
+    </head>  
+    
+    <body>  
+        <div class="main-content">
+        	<div class="main-content-inner">
+        		<div class="page-content">
+        			<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<form class="form-horizontal" role="form">
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">登录账号</label>
+										<div class="col-sm-9">
+											<input type="text" name="mobile" placeholder="登录账号" class="col-xs-10 col-sm-5">
+											<input type="hidden" name="openId" th:value="#{WECHAT_USER_INFO.openid}"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">登录密码</label>
+										<div class="col-sm-9">
+											<input type="text" name="passwd" placeholder="登录密码" class="col-xs-10 col-sm-5">
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="col-xs-12">
+								<a href="#" id="bindBtn" class="btn btn-app btn-primary no-radius btn-block">
+											<i class="ace-icon fa fa-pencil-square-o bigger-230"></i>
+											<span class="badge badge-warning badge-left">绑定账号</span>
+								</a>
+							</div>
+					</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <script src="/static/js/jquery-3.1.0.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/js/bootbox.min.js"></script>
+		<script src="/static/js/intlTelInput.min.js"></script>
+		<script src="/static/js/HoldOn.min.js"></script>
+		<script src="/static/js/highcharts.js"></script>
+		<script src="/static/js/jquery.fancybox.min.js"></script>
+		<script src="/static/js/video.min.js"></script>
+    </body>  
+</html>  

@@ -1,0 +1,9 @@
+com\iyunya\wechat\common\WechatUser.class
+com\iyunya\wechat\common\WechatOpenId.class
+com\iyunya\wechat\SpringRunner.class
+com\iyunya\wechat\common\AccessTokenTool.class
+com\iyunya\wechat\common\Consts.class
+com\iyunya\wechat\common\AccessToken.class
+com\iyunya\wechat\common\WechatUserUtil.class
+com\iyunya\wechat\api\WechatController.class
+com\iyunya\wechat\common\HttpUtil.class
